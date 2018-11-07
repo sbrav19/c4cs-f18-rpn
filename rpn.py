@@ -28,8 +28,6 @@ def calculate(myarg):
         raise TypeError("Too many parameters")
     return stack.pop()
 
-def dummy(arg):
-    print("This is a dummy function")
 
 def main():
     while True:
