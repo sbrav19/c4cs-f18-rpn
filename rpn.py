@@ -29,6 +29,9 @@ def calculate(myarg):
         raise TypeError("Too many parameters")
     return stack.pop()
 
+def dummy(arg):
+    print("hello poof")
+
 
 def main():
     while True:
